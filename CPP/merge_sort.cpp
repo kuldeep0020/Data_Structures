@@ -53,7 +53,11 @@ void merge(int arr[],int n){ //takes array as well as its size
 int main(){
   int arr[]={9,8,7,6,5,4,3,2,1};
   int n=sizeof(arr)/sizeof(arr[0]);
+  cout<<"Calling Merge Function"<<endl;
   merge(arr,n); //calling merge function
+  cout<<"Returning from merge function"<<endl;
+  cout<<"Displaying"<<endl;
+  
   display(arr,n); //calling display function
   return 0;
 }
