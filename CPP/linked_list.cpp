@@ -127,6 +127,7 @@ int main(){
   list.push(6);
   list.push(7);
   list.push(7);
+  cout<<"Pushed 1, 1, 2, 6, 6, 6, 6, 7, 7<<endl;
   list.display();
   list.duplicate();
   list.display();
